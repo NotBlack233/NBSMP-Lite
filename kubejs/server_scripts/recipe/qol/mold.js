@@ -1,0 +1,10 @@
+ServerEvents.recipes(event => {
+    event.remove({id: 'createdieselgenerators:cutting/bowl_mold'})
+    event.remove({id: 'createdieselgenerators:cutting/bar_mold'})
+    event.remove({id: 'createdieselgenerators:cutting/chain_mold'})
+    event.remove({id: 'createdieselgenerators:cutting/lines_mold'})
+    event.stonecutting('createdieselgenerators:mold[createdieselgenerators:mold_type="createdieselgenerators:bowl"]', '#c:plates/iron')
+    event.stonecutting('createdieselgenerators:mold[createdieselgenerators:mold_type="createdieselgenerators:lines"]', '#c:plates/iron')
+    event.stonecutting('createdieselgenerators:mold[createdieselgenerators:mold_type="createdieselgenerators:chain"]', '#c:plates/iron')
+    event.stonecutting('createdieselgenerators:mold[createdieselgenerators:mold_type="createdieselgenerators:bar"]', '#c:plates/iron')
+})
