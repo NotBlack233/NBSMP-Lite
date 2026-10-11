@@ -2,3 +2,5 @@
 !.gitignore
 !kubejs/
 !options.txt
+!README.md
+!LICENSE
