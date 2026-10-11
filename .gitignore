@@ -1,5 +1,6 @@
 /*
 !.gitignore
+!config/
 !kubejs/
 !options.txt
 !README.md
